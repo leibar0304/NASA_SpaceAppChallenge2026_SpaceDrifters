@@ -1,7 +1,6 @@
 package com.example.nasa_spaceappchallenge2026_spacedrifters.data.ejemplo
 
 import androidx.room.withTransaction
-import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.AppDatabase
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.Astronauta
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.CargoTripulante
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.RegistroDiario

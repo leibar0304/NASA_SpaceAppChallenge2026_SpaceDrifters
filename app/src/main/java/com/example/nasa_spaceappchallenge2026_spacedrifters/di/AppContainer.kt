@@ -4,7 +4,6 @@ import android.content.Context
 import android.util.Log
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.config.ConfigMision
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.ejemplo.CargadorDatosEjemplo
-import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.AppDatabase
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.repository.CognitivoRepository
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.repository.TripulacionRepository
 import kotlinx.coroutines.CoroutineScope

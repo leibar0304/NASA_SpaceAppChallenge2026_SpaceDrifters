@@ -4,7 +4,6 @@ import androidx.room.Room
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.ejemplo.CargadorDatosEjemplo
-import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.AppDatabase
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.ResumenSesion
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.Sintoma
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.TipoPrueba

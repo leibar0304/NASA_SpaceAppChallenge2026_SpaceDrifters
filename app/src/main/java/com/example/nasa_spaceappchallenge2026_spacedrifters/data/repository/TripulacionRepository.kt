@@ -1,6 +1,5 @@
 package com.example.nasa_spaceappchallenge2026_spacedrifters.data.repository
 
-import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.AppDatabase
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.Astronauta
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.emitAll
