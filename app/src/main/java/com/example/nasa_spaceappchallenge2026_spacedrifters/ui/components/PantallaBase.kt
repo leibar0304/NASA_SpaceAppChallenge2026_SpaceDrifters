@@ -23,17 +23,19 @@ import com.example.nasa_spaceappchallenge2026_spacedrifters.R
 /**
  * Estructura común de todas las pantallas: barra superior con título (y botón de volver si
  * [onAtras] no es null), el contenido, y el aviso de prototipo abajo.
+ * Con [titulo] null no hay barra superior (para pantallas con su propia cabecera, como el
+ * selector de rol); el aviso de prototipo sigue siempre.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PantallaBase(
-    titulo: String,
+    titulo: String?,
     onAtras: (() -> Unit)? = null,
     contenido: @Composable (PaddingValues) -> Unit,
 ) {
     Scaffold(
         topBar = {
-            TopAppBar(
+            if (titulo != null) TopAppBar(
                 title = { Text(titulo) },
                 navigationIcon = {
                     if (onAtras != null) {

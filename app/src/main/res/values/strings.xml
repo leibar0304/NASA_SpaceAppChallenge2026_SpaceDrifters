@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">SpaceDrifters · Monitor de salud</string>
+    <!-- Nombre propio: igual en todos los idiomas. -->
+    <string name="nombre_app" translatable="false">SpaceDrifters</string>
 
     <!-- Comunes -->
     <string name="aviso_prototipo">Prototipo, no es un dispositivo médico · Datos simulados</string>
@@ -16,10 +18,48 @@
     <string name="rol_medico_desc">Toda la tripulación, desde la Tierra</string>
     <string name="cd_astronauta">Icono de astronauta</string>
     <string name="cd_medico">Icono de médico</string>
+    <string name="cd_logo">Logotipo de SpaceDrifters</string>
+    <string name="cd_entrar">Entrar</string>
 
     <!-- Astronauta -->
     <string name="astronauta_inicio_titulo">Inicio</string>
     <string name="pruebas_hoy_titulo">Pruebas de hoy</string>
+
+    <!-- Panel del astronauta -->
+    <string name="cargo_comandante">Comandante</string>
+    <string name="cargo_ingenieria_vuelo">Ingeniería de vuelo</string>
+    <string name="cargo_oficial_medico">Oficial médico de a bordo</string>
+    <string name="cargo_especialista_mision">Especialista de misión</string>
+    <string name="panel_dia_mision">Día %1$d de misión</string>
+    <string name="panel_retraso">Retraso con la Tierra: %1$d min</string>
+    <string name="mi_rendimiento_titulo">Mi rendimiento</string>
+    <plurals name="periodo_dias">
+        <item quantity="one">%1$d día</item>
+        <item quantity="other">%1$d días</item>
+    </plurals>
+    <string name="ultima_sesion">Última: %1$s</string>
+    <string name="grafica_mejor">↑ Mejor</string>
+    <string name="grafica_hoy">Hoy</string>
+    <string name="rango_habitual">Tu rango habitual</string>
+    <string name="rendimiento_sin_sesiones">Sin sesiones en este periodo.</string>
+    <string name="rendimiento_dentro">Todas tus sesiones están dentro de tu rango habitual.</string>
+    <!-- La cantidad es el total de sesiones (%2$d). -->
+    <plurals name="rendimiento_fuera">
+        <item quantity="one">%1$d de %2$d sesión, peor de lo habitual.</item>
+        <item quantity="other">%1$d de %2$d sesiones, peor de lo habitual.</item>
+    </plurals>
+    <!-- La cantidad es el número de días (%2$d). -->
+    <plurals name="cd_grafica_rendimiento">
+        <item quantity="one">Gráfica de %1$s del último %2$d día. %3$s</item>
+        <item quantity="other">Gráfica de %1$s de los últimos %2$d días. %3$s</item>
+    </plurals>
+
+    <!-- Estados (siempre con texto, nunca solo color) -->
+    <string name="estado_normal">Normal</string>
+    <string name="estado_vigilar">Vigilar</string>
+    <string name="estado_alerta">Alerta</string>
+    <string name="estado_sin_datos">Sin datos</string>
+    <string name="estado_sin_linea_base">Sin línea base</string>
     <string name="empezar">Empezar</string>
     <string name="repetir">Repetir</string>
     <string name="prueba_hecha_hoy">Hecha hoy</string>

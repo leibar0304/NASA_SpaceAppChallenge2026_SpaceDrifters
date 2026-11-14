@@ -16,10 +16,48 @@
     <string name="rol_medico_desc">The whole crew, from Earth</string>
     <string name="cd_astronauta">Astronaut icon</string>
     <string name="cd_medico">Doctor icon</string>
+    <string name="cd_logo">SpaceDrifters logo</string>
+    <string name="cd_entrar">Enter</string>
 
     <!-- Astronaut -->
     <string name="astronauta_inicio_titulo">Home</string>
     <string name="pruebas_hoy_titulo">Today\'s tests</string>
+
+    <!-- Astronaut dashboard -->
+    <string name="cargo_comandante">Commander</string>
+    <string name="cargo_ingenieria_vuelo">Flight engineer</string>
+    <string name="cargo_oficial_medico">Crew medical officer</string>
+    <string name="cargo_especialista_mision">Mission specialist</string>
+    <string name="panel_dia_mision">Mission day %1$d</string>
+    <string name="panel_retraso">Delay to Earth: %1$d min</string>
+    <string name="mi_rendimiento_titulo">My performance</string>
+    <plurals name="periodo_dias">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <string name="ultima_sesion">Latest: %1$s</string>
+    <string name="grafica_mejor">↑ Better</string>
+    <string name="grafica_hoy">Today</string>
+    <string name="rango_habitual">Your usual range</string>
+    <string name="rendimiento_sin_sesiones">No sessions in this period.</string>
+    <string name="rendimiento_dentro">All your sessions are within your usual range.</string>
+    <!-- Quantity is the total number of sessions (%2$d). -->
+    <plurals name="rendimiento_fuera">
+        <item quantity="one">%1$d of %2$d session worse than usual.</item>
+        <item quantity="other">%1$d of %2$d sessions worse than usual.</item>
+    </plurals>
+    <!-- Quantity is the number of days (%2$d). -->
+    <plurals name="cd_grafica_rendimiento">
+        <item quantity="one">%1$s chart for the last %2$d day. %3$s</item>
+        <item quantity="other">%1$s chart for the last %2$d days. %3$s</item>
+    </plurals>
+
+    <!-- States (always with text, never colour alone) -->
+    <string name="estado_normal">Normal</string>
+    <string name="estado_vigilar">Watch</string>
+    <string name="estado_alerta">Alert</string>
+    <string name="estado_sin_datos">No data</string>
+    <string name="estado_sin_linea_base">No baseline</string>
     <string name="empezar">Start</string>
     <string name="repetir">Retake</string>
     <string name="prueba_hecha_hoy">Done today</string>

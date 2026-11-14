@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo SpaceDrifters para usar dentro de la app (sin el margen del icono adaptativo). Mismo
+     dibujo que ic_launcher_foreground, recortado a su zona segura de 66 dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="66dp"
+    android:height="66dp"
+    android:viewportWidth="66"
+    android:viewportHeight="66">
+    <group
+        android:translateX="-21"
+        android:translateY="-21">
+        <path
+            android:pathData="M28,58L41,58L47,41L54,70L61,46L66,58L80,58"
+            android:strokeWidth="1.8"
+            android:strokeAlpha="0.85"
+            android:strokeColor="@color/logo_acento"
+            android:strokeLineJoin="round" />
+        <path
+            android:fillColor="@color/logo_trazo"
+            android:pathData="M25.8,58a2.2,2.2 0,1 0,4.4 0a2.2,2.2 0,1 0,-4.4 0M38.1,58a2.9,2.9 0,1 0,5.8 0a2.9,2.9 0,1 0,-5.8 0M51.1,70a2.9,2.9 0,1 0,5.8 0a2.9,2.9 0,1 0,-5.8 0M58.1,46a2.9,2.9 0,1 0,5.8 0a2.9,2.9 0,1 0,-5.8 0M63.1,58a2.9,2.9 0,1 0,5.8 0a2.9,2.9 0,1 0,-5.8 0M77.8,58a2.2,2.2 0,1 0,4.4 0a2.2,2.2 0,1 0,-4.4 0" />
+        <path
+            android:fillColor="@color/logo_acento"
+            android:pathData="M47,32C48,39 49,40 56,41C49,42 48,43 47,50C46,43 45,42 38,41C45,40 46,39 47,32Z" />
+    </group>
+</vector>

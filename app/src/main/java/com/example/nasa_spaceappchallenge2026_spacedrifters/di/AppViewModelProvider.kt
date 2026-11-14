@@ -21,7 +21,12 @@ object AppViewModelProvider {
     val Factory: ViewModelProvider.Factory = viewModelFactory {
         initializer {
             val c = app().container
-            InicioAstronautaViewModel(c.cognitivoRepository, c.astronautaActualId)
+            InicioAstronautaViewModel(
+                cognitivo = c.cognitivoRepository,
+                tripulacion = c.tripulacionRepository,
+                astronautaId = c.astronautaActualId,
+                retrasoMin = c.configMision.retrasoMisionMin,
+            )
         }
         initializer {
             val c = app().container

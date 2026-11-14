@@ -1,0 +1,63 @@
+{
+  "_comentario": "Datos simulados. Se cargan al primer arranque (base de datos vacía). Día 14 = hoy. stroopZ / nbackZ = desviaciones respecto a su media, positivo = peor (Stroop más lento, d' más baja). Los ensayos se generan a partir de esto.",
+  "diasMision": 14,
+  "tripulacion": [
+    {
+      "id": 1,
+      "nombre": "Maya Okafor",
+      "cargo": "COMANDANTE",
+      "horasSuenoHabituales": 7.5,
+      "semilla": 11,
+      "minutosDesdeUltimaSesion": 5,
+      "stroop": { "tiempoCoincidentesMs": 600, "efectoMs": 85, "desviacionMs": 12 },
+      "nback": { "dPrima": 2.9, "desviacion": 0.3, "tiempoMs": 640 },
+      "stroopZ": [0.3, -0.4, 0.1, 0.5, -0.2, 0.0, 0.4, -0.5, 0.2, 0.6, 0.3, 0.5, 0.7, 0.6],
+      "nbackZ": [-0.2, 0.3, -0.4, 0.0, 0.5, -0.3, -0.1, 0.2, -0.4, 0.0, 1.5, 2.0, 2.3, 2.6],
+      "horasSueno": [7.6, 7.3, 7.8, 7.2, 7.5, 7.4, 7.7, 7.1, 7.3, 7.0, 6.4, 5.2, 4.8, 5.0],
+      "somnolencia": [3, 3, 2, 4, 3, 3, 2, 4, 3, 4, 5, 7, 7, 8],
+      "sintomas": { "13": ["FATIGA"], "14": ["FATIGA"] }
+    },
+    {
+      "id": 2,
+      "nombre": "Leo Martín",
+      "cargo": "INGENIERIA_VUELO",
+      "horasSuenoHabituales": 7.0,
+      "semilla": 22,
+      "stroop": { "tiempoCoincidentesMs": 640, "efectoMs": 95, "desviacionMs": 14 },
+      "nback": { "dPrima": 2.6, "desviacion": 0.3, "tiempoMs": 700 },
+      "stroopZ": [0.1, 0.4, -0.3, 0.2, 0.5, -0.1, 0.3, 0.0, -0.4, 0.2, 0.6, 0.4, 0.8, 3.8],
+      "nbackZ": [0.0, -0.3, 0.2, -0.1, -0.4, 0.3, -0.2, 0.0, 0.1, -0.3, -0.1, 0.2, 0.0, 0.4],
+      "horasSueno": [7.1, 6.9, 7.2, 7.0, 6.8, 7.3, 7.0, 6.9, 7.1, 7.2, 6.8, 7.0, 6.9, 6.6],
+      "somnolencia": [3, 3, 3, 2, 3, 3, 3, 3, 2, 3, 3, 3, 4, 5],
+      "sintomas": { "14": ["DOLOR_CABEZA"] }
+    },
+    {
+      "id": 3,
+      "nombre": "Ane Etxeberria",
+      "cargo": "OFICIAL_MEDICO",
+      "horasSuenoHabituales": 7.5,
+      "semilla": 33,
+      "stroop": { "tiempoCoincidentesMs": 580, "efectoMs": 75, "desviacionMs": 10 },
+      "nback": { "dPrima": 3.1, "desviacion": 0.25, "tiempoMs": 620 },
+      "stroopZ": [-0.2, 0.3, 0.0, -0.5, 0.4, 0.1, -0.3, 0.2, 0.5, -0.1, 0.0, 0.3, -0.4, 0.2],
+      "nbackZ": [0.1, -0.2, 0.4, 0.0, -0.3, 0.2, 0.5, -0.1, 0.0, 0.3, -0.4, 0.1, 0.2, -0.2],
+      "horasSueno": [7.4, 7.6, 7.5, 7.8, 7.3, 7.5, 7.7, 7.4, 7.6, 7.5, 7.2, 7.6, 7.5, 7.4],
+      "somnolencia": [2, 3, 2, 2, 3, 2, 3, 2, 2, 3, 3, 2, 2, 3],
+      "sintomas": {}
+    },
+    {
+      "id": 4,
+      "nombre": "Ilan Novak",
+      "cargo": "ESPECIALISTA_MISION",
+      "horasSuenoHabituales": 7.0,
+      "semilla": 44,
+      "stroop": { "tiempoCoincidentesMs": 630, "efectoMs": 90, "desviacionMs": 13 },
+      "nback": { "dPrima": 2.7, "desviacion": 0.3, "tiempoMs": 680 },
+      "stroopZ": [0.4, -0.1, 0.2, 0.0, -0.4, 0.3, 0.1, -0.2, 0.5, 0.0, -0.3, 0.2, 0.4, -0.1],
+      "nbackZ": [-0.1, 0.2, 0.0, 0.4, -0.2, 0.1, -0.4, 0.3, 0.0, -0.1, 0.2, 0.5, -0.3, 0.1],
+      "horasSueno": [6.9, 7.1, 7.0, 6.8, 7.2, 7.0, 6.9, 7.1, 7.3, 7.0, 6.8, 7.1, 7.0, 6.9],
+      "somnolencia": [3, 3, 2, 3, 3, 2, 3, 3, 2, 3, 3, 3, 2, 3],
+      "sintomas": { "6": ["NAUSEAS"] }
+    }
+  ]
+}

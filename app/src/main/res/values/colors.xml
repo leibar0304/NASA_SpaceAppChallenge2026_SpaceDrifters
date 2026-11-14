@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Solo para el tema de ventana. Los colores de la UI están en ui/theme/Color.kt -->
+    <!-- Solo para recursos fuera de Compose (tema de ventana, icono). Los colores de la UI están
+         en ui/theme/Color.kt; estos valores son los mismos que Fondo, Acento, Texto y TextoSecundario. -->
     <color name="fondo">#FF0B1220</color>
+    <color name="logo_acento">#FF4CC3FF</color>
+    <color name="logo_trazo">#FFE6EDF7</color>
+    <color name="logo_estrellas">#999AA8BF</color>
 </resources>

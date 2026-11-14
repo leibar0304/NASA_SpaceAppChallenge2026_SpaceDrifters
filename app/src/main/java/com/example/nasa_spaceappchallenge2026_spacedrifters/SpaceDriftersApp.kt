@@ -12,5 +12,6 @@ class SpaceDriftersApp : Application() {
     override fun onCreate() {
         super.onCreate()
         container = AppContainer(this)
+        container.iniciar() // carga los datos de ejemplo en segundo plano si la base está vacía
     }
 }

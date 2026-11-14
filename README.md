@@ -122,6 +122,12 @@ Nunca escribas texto visible directamente en el código: añádelo a `values/str
 
 Usa `MaterialTheme.colorScheme` y `MaterialTheme.typography`. Para los estados (Normal, Vigilar, Alerta, Sin datos) usa `LocalEstadoColores.current`. Para cambiar la paleta, edita solo `ui/theme/Color.kt`.
 
+**Tipografía** (`ui/theme/Type.kt`): las fuentes van dentro de la app (`res/font`) para que funcione sin conexión. **Space Grotesk** en títulos, **Inter** en el texto y **JetBrains Mono** en `labelMedium` (cifras y cuentas atrás). No pongas fuentes a mano en un `Text`: elige el estilo de `MaterialTheme.typography`. Sus licencias (SIL OFL) están en `assets/licencias/` y tienen que ir siempre con las fuentes.
+
+**Logo e icono**: el icono de la app es vectorial y adaptativo (`drawable/ic_launcher_*.xml`). Para usar el logo dentro de una pantalla, usa `drawable/ic_logo.xml`. Los colores del icono están en `res/values/colors.xml` y son los mismos que los de `Color.kt`.
+
+**Pantallas sin barra superior**: `PantallaBase(titulo = null)` quita la barra (para pantallas con su propia cabecera, como el selector de rol). El aviso de prototipo sigue saliendo.
+
 ## Reglas de diseño que todos seguimos
 
 - Tema oscuro tipo control de misión (paleta en `ui/theme/Color.kt`).

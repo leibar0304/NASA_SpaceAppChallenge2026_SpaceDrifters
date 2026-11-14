@@ -1,0 +1,8 @@
+<resources>
+    <!-- Android 12+: pantalla de arranque con el fondo de la app y el icono SpaceDrifters. -->
+    <style name="Theme.NASA_SpaceAppChallenge2026_SpaceDrifters" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/fondo</item>
+        <item name="android:windowSplashScreenBackground">@color/fondo</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/fondo</item>
+    </style>
+</resources>
