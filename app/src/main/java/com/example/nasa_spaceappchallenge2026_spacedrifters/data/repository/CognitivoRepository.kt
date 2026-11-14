@@ -1,7 +1,6 @@
 package com.example.nasa_spaceappchallenge2026_spacedrifters.data.repository
 
 import androidx.room.withTransaction
-import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.AppDatabase
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.EnsayoNBack
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.EnsayoStroop
 import com.example.nasa_spaceappchallenge2026_spacedrifters.data.local.LineaBaseCognitiva
